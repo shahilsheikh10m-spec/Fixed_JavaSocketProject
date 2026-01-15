@@ -27,10 +27,10 @@ public class CsvCache {
             line = line.trim();
             if (line.isEmpty()) continue;
 
-            String[] parts = line.split(",", 2);
-            if (parts.length < 2) continue;
+            String[] parts = line.split(",", 3);
+            if (parts.length < 3) continue;
 
-            cache.put(parts[0].trim(), parts[1].trim());
+            cache.put(parts[1].trim(), parts[0].trim() + "," + parts[2].trim());
         }
 
         br.close();

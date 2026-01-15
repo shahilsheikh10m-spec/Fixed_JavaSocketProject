@@ -5,6 +5,7 @@ import java.net.Socket;
 import java.util.Properties;
 import java.util.Scanner;
 import java.util.logging.Logger;
+import java.net.SocketTimeoutException;
 
 public class ClientMain {
 
@@ -20,7 +21,7 @@ public class ClientMain {
         String logFile = props.getProperty("log.file");
         int reconnectDelay = Integer.parseInt(props.getProperty("reconnect.delay.seconds"));
 
-        Logger logger = LoggerUtil.getLogger("ClientLogger", logFile);
+        Logger logger = com.project.client.LoggerUtil.getLogger("ClientLogger", logFile);
 
         while (true) {
             try (Socket socket = new Socket(host, port)) {

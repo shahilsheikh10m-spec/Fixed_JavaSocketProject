@@ -36,7 +36,16 @@ public class ServerMain {
         // -----------------------------
         // LOAD users.properties FROM CLASSPATH
         // -----------------------------
-        AuthService authService = new AuthService("users.properties");
+        InputStream usersStream = ServerMain.class.getClassLoader()
+                .getResourceAsStream("users.properties");
+
+        if (usersStream == null) {
+            throw new IllegalStateException("users.properties NOT FOUND in resources folder!");
+        }
+
+        Properties userProps = new Properties();
+        userProps.load(usersStream);
+        AuthService authService = new AuthService(userProps);
 
         // Logger
         Logger logger = LoggerUtil.getLogger("ServerLogger", props.getProperty("log.file"));

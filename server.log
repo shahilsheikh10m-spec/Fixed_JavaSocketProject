@@ -1,0 +1,288 @@
+Jan 15, 2026 10:39:58 PM com.project.server.ServerMain main
+INFO: Server started on port: 9090
+Jan 15, 2026 10:40:00 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 10:40:00 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 10:40:00 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 10:40:00 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 10:41:00 PM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 15, 2026 10:41:00 PM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 15, 2026 10:52:53 PM com.project.server.ServerMain main
+INFO: Server started on port: 9090
+Jan 15, 2026 10:53:15 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 10:53:15 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 10:53:15 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 10:53:15 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 11:03:33 PM com.project.server.ServerMain main
+INFO: Server started on port: 9090
+Jan 15, 2026 11:03:33 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 11:03:33 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 11:03:33 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 11:03:33 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 11:03:50 PM com.project.server.ClientHandler run
+INFO: Received query: nbk
+Jan 15, 2026 11:03:50 PM com.project.server.ClientHandler run
+WARNING: Company not found: nbk
+Jan 15, 2026 11:04:50 PM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 15, 2026 11:04:50 PM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 15, 2026 11:05:23 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 11:05:23 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 11:05:23 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 11:05:23 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 11:06:11 PM com.project.server.ClientHandler run
+INFO: Received query: AL-MAIDAN CLINIC FOR ORAL HEALTH SERVICES CO.
+Jan 15, 2026 11:06:11 PM com.project.server.ClientHandler run
+WARNING: Company not found: AL-MAIDAN CLINIC FOR ORAL HEALTH SERVICES CO.
+Jan 15, 2026 11:06:35 PM com.project.server.ClientHandler run
+INFO: Received query: AL-MAIDAN CLINIC FOR ORAL HEALTH SERVICES CO.
+Jan 15, 2026 11:06:35 PM com.project.server.ClientHandler run
+WARNING: Company not found: AL-MAIDAN CLINIC FOR ORAL HEALTH SERVICES CO.
+Jan 15, 2026 11:07:35 PM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 15, 2026 11:07:35 PM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 15, 2026 11:07:43 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 11:07:43 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 11:07:43 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 11:07:43 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 11:07:48 PM com.project.server.ClientHandler run
+INFO: Received query: ALMAIDAN
+Jan 15, 2026 11:07:48 PM com.project.server.ClientHandler run
+WARNING: Company not found: ALMAIDAN
+Jan 15, 2026 11:08:48 PM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 15, 2026 11:08:48 PM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 15, 2026 11:12:05 PM com.project.server.ServerMain main
+INFO: Server started on port: 9090
+Jan 15, 2026 11:12:13 PM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 15, 2026 11:12:13 PM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 15, 2026 11:12:13 PM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 15, 2026 11:12:13 PM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 15, 2026 11:12:20 PM com.project.server.ClientHandler run
+INFO: Received query: kfik
+Jan 15, 2026 11:12:20 PM com.project.server.ClientHandler run
+WARNING: Company not found: kfik
+Jan 15, 2026 11:12:26 PM com.project.server.ClientHandler run
+INFO: Received query: KFIK
+Jan 15, 2026 11:12:26 PM com.project.server.ClientHandler run
+WARNING: Company not found: KFIK
+Jan 15, 2026 11:12:46 PM com.project.server.ClientHandler run
+INFO: Received query: KFIC
+Jan 15, 2026 11:12:46 PM com.project.server.ClientHandler run
+INFO: Found company: KFIC
+Jan 15, 2026 11:12:58 PM com.project.server.ClientHandler run
+INFO: Received query: NBK
+Jan 15, 2026 11:12:58 PM com.project.server.ClientHandler run
+INFO: Found company: NBK
+Jan 15, 2026 11:13:05 PM com.project.server.ClientHandler run
+INFO: Received query: ABC
+Jan 15, 2026 11:13:05 PM com.project.server.ClientHandler run
+WARNING: Company not found: ABC
+Jan 15, 2026 11:14:05 PM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 15, 2026 11:14:05 PM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 16, 2026 12:54:18 AM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 16, 2026 12:54:18 AM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 16, 2026 12:54:18 AM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 16, 2026 12:54:18 AM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 16, 2026 12:54:27 AM com.project.server.ClientHandler run
+INFO: Received query: SIA
+Jan 16, 2026 12:54:27 AM com.project.server.ClientHandler run
+WARNING: Company not found: SIA
+Jan 16, 2026 12:54:37 AM com.project.server.ClientHandler run
+INFO: Received query: FS
+Jan 16, 2026 12:54:37 AM com.project.server.ClientHandler run
+WARNING: Company not found: FS
+Jan 16, 2026 12:54:48 AM com.project.server.ClientHandler run
+INFO: Received query: FINANCIAL SERVICES
+Jan 16, 2026 12:54:48 AM com.project.server.ClientHandler run
+WARNING: Company not found: FINANCIAL SERVICES
+Jan 16, 2026 12:55:04 AM com.project.server.ClientHandler run
+INFO: Received query: F
+Jan 16, 2026 12:55:04 AM com.project.server.ClientHandler run
+WARNING: Company not found: F
+Jan 16, 2026 12:55:17 AM com.project.server.ClientHandler run
+INFO: Received query: IRE
+Jan 16, 2026 12:55:17 AM com.project.server.ClientHandler run
+WARNING: Company not found: IRE
+Jan 16, 2026 12:56:17 AM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 16, 2026 12:56:17 AM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 16, 2026 12:56:34 AM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 16, 2026 12:56:34 AM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 16, 2026 12:56:34 AM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 16, 2026 12:56:34 AM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 16, 2026 12:56:41 AM com.project.server.ClientHandler run
+INFO: Received query: NREC
+Jan 16, 2026 12:56:41 AM com.project.server.ClientHandler run
+WARNING: Company not found: NREC
+Jan 16, 2026 12:56:44 AM com.project.server.ClientHandler run
+INFO: Received query: NRE
+Jan 16, 2026 12:56:44 AM com.project.server.ClientHandler run
+INFO: Found company: NRE
+Jan 16, 2026 12:57:24 AM com.project.server.ClientHandler run
+INFO: Received query: CID
+Jan 16, 2026 12:57:24 AM com.project.server.ClientHandler run
+WARNING: Company not found: CID
+Jan 16, 2026 12:58:04 AM com.project.server.ClientHandler run
+INFO: Received query: BB
+Jan 16, 2026 12:58:04 AM com.project.server.ClientHandler run
+WARNING: Company not found: BB
+Jan 16, 2026 12:58:08 AM com.project.server.ClientHandler run
+INFO: Received query: BE
+Jan 16, 2026 12:58:08 AM com.project.server.ClientHandler run
+WARNING: Company not found: BE
+Jan 16, 2026 12:58:29 AM com.project.server.ClientHandler run
+INFO: Received query: IPG
+Jan 16, 2026 12:58:29 AM com.project.server.ClientHandler run
+INFO: Found company: IPG
+Jan 16, 2026 12:59:03 AM com.project.server.ClientHandler run
+INFO: Received query: MRE
+Jan 16, 2026 12:59:03 AM com.project.server.ClientHandler run
+WARNING: Company not found: MRE
+Jan 16, 2026 12:59:07 AM com.project.server.ClientHandler run
+INFO: Received query: MRC
+Jan 16, 2026 12:59:07 AM com.project.server.ClientHandler run
+INFO: Found company: MRC
+Jan 16, 2026 12:59:24 AM com.project.server.ClientHandler run
+INFO: Received query: MREC
+Jan 16, 2026 12:59:24 AM com.project.server.ClientHandler run
+WARNING: Company not found: MREC
+Jan 16, 2026 12:59:54 AM com.project.server.ClientHandler run
+INFO: Received query: WIR
+Jan 16, 2026 12:59:54 AM com.project.server.ClientHandler run
+WARNING: Company not found: WIR
+Jan 16, 2026 12:59:58 AM com.project.server.ClientHandler run
+INFO: Received query: IIRC
+Jan 16, 2026 12:59:58 AM com.project.server.ClientHandler run
+WARNING: Company not found: IIRC
+Jan 16, 2026 1:00:49 AM com.project.server.ClientHandler run
+INFO: Received query: NPE
+Jan 16, 2026 1:00:49 AM com.project.server.ClientHandler run
+WARNING: Company not found: NPE
+Jan 16, 2026 1:00:53 AM com.project.server.ClientHandler run
+INFO: Received query: NPEC
+Jan 16, 2026 1:00:53 AM com.project.server.ClientHandler run
+WARNING: Company not found: NPEC
+Jan 16, 2026 1:00:55 AM com.project.server.ClientHandler run
+INFO: Received query: NP
+Jan 16, 2026 1:00:55 AM com.project.server.ClientHandler run
+WARNING: Company not found: NP
+Jan 16, 2026 1:00:58 AM com.project.server.ClientHandler run
+INFO: Received query: NPC
+Jan 16, 2026 1:00:58 AM com.project.server.ClientHandler run
+WARNING: Company not found: NPC
+Jan 16, 2026 1:01:56 AM com.project.server.ClientHandler run
+INFO: Received query: REAL
+Jan 16, 2026 1:01:56 AM com.project.server.ClientHandler run
+WARNING: Company not found: REAL
+Jan 16, 2026 1:02:07 AM com.project.server.ClientHandler run
+INFO: Received query: REC
+Jan 16, 2026 1:02:07 AM com.project.server.ClientHandler run
+WARNING: Company not found: REC
+Jan 16, 2026 1:03:07 AM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 16, 2026 1:03:07 AM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 16, 2026 1:03:54 AM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 16, 2026 1:03:54 AM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 16, 2026 1:03:54 AM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 16, 2026 1:03:54 AM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 16, 2026 1:03:57 AM com.project.server.ClientHandler run
+INFO: Received query: IHK
+Jan 16, 2026 1:03:57 AM com.project.server.ClientHandler run
+WARNING: Company not found: IHK
+Jan 16, 2026 1:04:03 AM com.project.server.ClientHandler run
+INFO: Received query: IHCK
+Jan 16, 2026 1:04:03 AM com.project.server.ClientHandler run
+WARNING: Company not found: IHCK
+Jan 16, 2026 1:04:06 AM com.project.server.ClientHandler run
+INFO: Received query: IHCK
+Jan 16, 2026 1:04:06 AM com.project.server.ClientHandler run
+WARNING: Company not found: IHCK
+Jan 16, 2026 1:04:32 AM com.project.server.ClientHandler run
+INFO: Received query: NCH
+Jan 16, 2026 1:04:32 AM com.project.server.ClientHandler run
+WARNING: Company not found: NCH
+Jan 16, 2026 1:04:35 AM com.project.server.ClientHandler run
+INFO: Received query: \NCH
+Jan 16, 2026 1:04:35 AM com.project.server.ClientHandler run
+WARNING: Company not found: \NCH
+Jan 16, 2026 1:04:37 AM com.project.server.ClientHandler run
+INFO: Received query: NCH
+Jan 16, 2026 1:04:37 AM com.project.server.ClientHandler run
+WARNING: Company not found: NCH
+Jan 16, 2026 1:04:39 AM com.project.server.ClientHandler run
+INFO: Received query: NC
+Jan 16, 2026 1:04:39 AM com.project.server.ClientHandler run
+WARNING: Company not found: NC
+Jan 16, 2026 1:04:43 AM com.project.server.ClientHandler run
+INFO: Received query: NBK
+Jan 16, 2026 1:04:43 AM com.project.server.ClientHandler run
+INFO: Found company: NBK
+Jan 16, 2026 1:05:43 AM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 16, 2026 1:05:43 AM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
+Jan 16, 2026 1:06:26 AM com.project.server.ClientHandler run
+INFO: Client connected: /127.0.0.1
+Jan 16, 2026 1:06:26 AM com.project.server.ClientHandler run
+INFO: Authentication attempt - Username: kiran
+Jan 16, 2026 1:06:26 AM com.project.server.ClientHandler run
+INFO: Authentication successful for user: kiran
+Jan 16, 2026 1:06:26 AM com.project.server.ClientHandler run
+INFO: Sent 140 CSV rows to client
+Jan 16, 2026 1:06:29 AM com.project.server.ClientHandler run
+INFO: Received query: CBK
+Jan 16, 2026 1:06:29 AM com.project.server.ClientHandler run
+INFO: Found company: CBK
+Jan 16, 2026 1:07:28 AM com.project.server.ClientHandler run
+INFO: Received query: IFAHR
+Jan 16, 2026 1:07:28 AM com.project.server.ClientHandler run
+INFO: Found company: IFAHR
+Jan 16, 2026 1:08:28 AM com.project.server.ClientHandler run
+SEVERE: Error in client handler: Read timed out
+Jan 16, 2026 1:08:28 AM com.project.server.ClientHandler run
+INFO: Client disconnected: /127.0.0.1
