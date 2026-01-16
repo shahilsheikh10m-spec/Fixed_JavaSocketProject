@@ -50,7 +50,7 @@ public class ClientHandler implements Runnable {
 
             logger.info("Authentication successful for user: " + username);
 
-            // Send CSV data in binary format
+
             MessageUtil.sendBinary(out, MessageUtil.toBytes("CSV_START"));
 
             List<String> rows = cache.getAllRows();
@@ -63,7 +63,7 @@ public class ClientHandler implements Runnable {
             MessageUtil.sendBinary(out, MessageUtil.toBytes("CSV_END"));
             logger.info("Sent " + rows.size() + " CSV rows to client");
 
-            // Handle client queries
+
             while (true) {
                 try {
                     String query = MessageUtil.toString(MessageUtil.readBinary(in));
@@ -82,7 +82,7 @@ public class ClientHandler implements Runnable {
                         continue;
                     }
 
-                    // Handle company lookup
+
                     String result = cache.getValue(query);
                     if (result != null) {
                         MessageUtil.sendBinary(out, MessageUtil.toBytes(result));
@@ -111,15 +111,14 @@ public class ClientHandler implements Runnable {
     }
 
     private byte[] createISO8583BalanceResponse() {
-        // Simple ISO 8583 balance enquiry response (binary format)
-        // This is a simplified version for demonstration
+
         byte[] response = new byte[16];
 
-        // Message type (0200 - Authorization response)
+
         response[0] = 0x02;
         response[1] = 0x00;
 
-        // Primary account number (PAN) - simplified
+
         response[2] = 0x12;
         response[3] = 0x34;
         response[4] = 0x56;
@@ -129,13 +128,13 @@ public class ClientHandler implements Runnable {
         response[8] = 0x34;
         response[9] = 0x56;
 
-        // Amount (balance) - 12345678 in cents
+
         response[10] = 0x00;
         response[11] = (byte) 0xBC;
         response[12] = 0x61;
         response[13] = 0x4E;
 
-        // Response code (00 - Approved)
+
         response[14] = 0x30;
         response[15] = 0x30;
 

@@ -12,7 +12,7 @@ public class CsvCache {
 
     public CsvCache(String csvFileName) throws Exception {
 
-        // Load CSV file from resources
+
         InputStream is = CsvCache.class.getClassLoader()
                 .getResourceAsStream(csvFileName);
 
@@ -36,12 +36,12 @@ public class CsvCache {
         br.close();
     }
 
-    /** Return single value by key */
+
     public String getValue(String key) {
         return cache.get(key);
     }
 
-    /** RETURN AS LIST<String> → FIXES YOUR COMPILATION ERROR */
+
     public List<String> getAllRows() {
         return cache.entrySet().stream()
                 .map(e -> e.getKey() + "," + e.getValue())

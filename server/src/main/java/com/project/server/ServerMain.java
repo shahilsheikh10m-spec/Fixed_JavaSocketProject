@@ -9,9 +9,7 @@ import java.util.logging.Logger;
 public class ServerMain {
     public static void main(String[] args) throws Exception {
 
-        // -----------------------------
-        // LOAD server.properties FROM CLASSPATH
-        // -----------------------------
+
         Properties props = new Properties();
         InputStream propStream = ServerMain.class.getClassLoader()
                 .getResourceAsStream("server.properties");
@@ -25,17 +23,11 @@ public class ServerMain {
         int port = Integer.parseInt(props.getProperty("server.port"));
         int timeout = Integer.parseInt(props.getProperty("client.timeout.seconds"));
 
-        // CSV file name from properties
+
         String csvFileName = props.getProperty("csv.file");
 
-        // -----------------------------
-        // LOAD CsvCache USING CLASSPATH
-        // -----------------------------
         CsvCache cache = new CsvCache(csvFileName);
 
-        // -----------------------------
-        // LOAD users.properties FROM CLASSPATH
-        // -----------------------------
         InputStream usersStream = ServerMain.class.getClassLoader()
                 .getResourceAsStream("users.properties");
 
@@ -47,12 +39,9 @@ public class ServerMain {
         userProps.load(usersStream);
         AuthService authService = new AuthService(userProps);
 
-        // Logger
+
         Logger logger = LoggerUtil.getLogger("ServerLogger", props.getProperty("log.file"));
 
-        // -----------------------------
-        // START SERVER
-        // -----------------------------
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             logger.info("Server started on port: " + port);
 
