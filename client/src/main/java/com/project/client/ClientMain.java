@@ -12,7 +12,7 @@ public class ClientMain {
     public static void main(String[] args) throws Exception {
 
         Properties props = new Properties();
-        props.load(new FileInputStream("C:/Users/Client/OneDrive/Desktop/project/Fixed_JavaSocketProject/client/src/main/resources/client.properties"));
+        props.load(new FileInputStream("C:/Users/Client/OneDrive/Desktop/project/boursa_JavaSocketProject/client/src/main/resources/client.properties"));
 
         String host = props.getProperty("server.host");
         int port = Integer.parseInt(props.getProperty("server.port"));
